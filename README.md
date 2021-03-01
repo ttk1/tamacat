@@ -5,7 +5,7 @@ Python で cat コマンドを雑に実装。
 ## インストール
 
 ```sh
-pip install git+https://github.com/ttk1/tamacat
+pip install git+https://github.com/ttk1/tamacat.git
 
 # もしくは
 git clone https://github.com/ttk1/tamacat.git
