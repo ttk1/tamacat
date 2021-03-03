@@ -27,4 +27,11 @@ def main():
     parser = get_parser()
     args = parser.parse_args()
     for file_name in args.FILE:
-        process(file_name)
+        try:
+            process(file_name)
+        except KeyboardInterrupt:
+            print()
+            break
+        except Exception as e:
+            print(e)
+            break
